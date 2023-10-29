@@ -1,0 +1,176 @@
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Main                                                                                    ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+/*
+!.obsidian
+!.trash
+!1 Notes
+!2 Bookmarks
+!3 Tasks
+!4 Personal
+!5 Study
+!6 Work
+!7 Knowledge
+!8 Resources
+!9 Templates
+!Sorting
+!license
+!manifest.json
+!readme.md
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Sub                                                                                     ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+# Git
+.git/*
+
+# Trash
+.trash/*
+!.gitkeep
+
+# Notes
+1 Notes/*
+!.gitkeep
+
+# Bookmarks
+2 Bookmarks/* 
+!.gitkeep
+
+# Tasks
+3 Tasks/* 
+!.gitkeep
+
+# Personal
+4 Personal/*
+!.gitkeep
+
+# Study
+5 Study/*
+!.gitkeep
+
+# Work
+6 Work/*
+!.gitkeep
+
+# Knowledge
+7 Knowledge/*
+!.gitkeep
+
+# Resources
+8 Resources/attachments/*
+!.gitkeep
+8 Resources/banners/*
+!space1.jpg
+!space2.jpg
+!space3.jpg
+!space4.jpg
+8 Resources/icons/*
+!.gitkeep
+8 Resources/scripts/*
+!.gitkeep
+
+# Sorting
+Sorting
+!.gitkeep
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Obsidian                                                                                ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+# Obsidian
+.obsidian/bookmarks.json
+.obsidian/starred.json
+.obsidian/graph.json
+
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Plugins
+.obsidian/plugins/home-tab/data.json
+.obsidian/plugins/recent-files-obsidian/data.json
+
+.obsidian/plugins/obsidian-sample-plugin/data.json
+.obsidian/plugins/emoji-shortcodes/data.json
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Windows                                                                                 ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ MacOS                                                                                   ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗
+# ║ Gitignore                ║ Linux                                                                                   ║
+# ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝
+
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
